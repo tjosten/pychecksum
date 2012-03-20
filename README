@@ -1,1 +1,3 @@
 pychecksum is a module to validate the checksum of a german identity card ("Personalausweis")
+
+Note: This is not to be used in production, as it validates not all kind of identity card checksums.

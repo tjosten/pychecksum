@@ -69,7 +69,7 @@ class Checksum:
 			_sum+= digit*value
 			_iteration+=1
 
-		if checksum[9:] == str(_sum)[2:]:
+		if checksum[9:] == str(_sum)[len(_sum)-1:]:
 			return True
 		else:
 			raise ChecksumError("Checksum is not valid")
